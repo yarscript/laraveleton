@@ -1,0 +1,27 @@
+{
+  "name": "yarscript/laraveleton-application",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Yaroslav Shportko",
+      "email": "yar.yason@gmail.com"
+    }
+  ],
+  "require": {
+    "yarscript/laraveleton-core": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yarscript\\Application\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yarscript\\Application\\Providers\\ApplicationServiceProvider"
+      ],
+      "aliases": {}
+    }
+  }
+}
