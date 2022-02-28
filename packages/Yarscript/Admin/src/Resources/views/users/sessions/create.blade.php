@@ -1,7 +1,7 @@
 @extends('admin::layouts.anonymous-master')
 
 @section('title')
-    {{ $title ?? 'Admin Login' }} | {{ config('app.name', 'E-assurance') }}
+    {{ $title ?? 'Admin Login' }} | {{ config('app.name', 'Laraveleton') }}
 @endsection
 
 @section('content')

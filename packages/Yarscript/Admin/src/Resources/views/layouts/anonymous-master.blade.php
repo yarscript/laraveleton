@@ -22,16 +22,16 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="{{ url('favicon.png') }}">
     <title>
-        @yield('title', config('app.name', 'E-assurance'))
+        @yield('title', config('app.name', 'Laraveleton'))
     </title>
-    <meta content="E-assurance Admin" name="description" />
+    <meta content="Laraveleton Admin" name="description" />
     <script src="{{ asset('admin/assets/js/app.js') }}" defer></script>
     <link href="{{ asset($css_file) }}" rel="stylesheet" id="layout-css">
 </head>
 
 <body>
 <noscript>
-    <strong>We're sorry but E-assurance doesn't work properly without JavaScript enabled. Please enable it to
+    <strong>We're sorry but Laraveleton doesn't work properly without JavaScript enabled. Please enable it to
         continue.</strong>
 </noscript>
 <div id="app">

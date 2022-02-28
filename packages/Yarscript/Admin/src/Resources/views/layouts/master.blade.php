@@ -22,9 +22,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="{{ url('favicon.png') }}">
     <title>
-        @yield('title', config('app.name', 'E-assurance admin'))
+        @yield('title', config('app.name', 'Laraveleton admin'))
     </title>
-    <meta content="E-assurance Admin" name="description" />
+    <meta content="Laraveleton Admin" name="description" />
 {{--    <link rel="stylesheet" href="{{ asset('vendor/webkul/ui/assets/css/ui.css') }}">--}}
 
 
