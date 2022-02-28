@@ -1,1 +1,1 @@
-# eassurance-new
+# Laraveleton - package-based app skeleton
